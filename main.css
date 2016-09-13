@@ -1,0 +1,70 @@
+html{
+	font-family:Mircrosoft YaHei,serif;
+	font-size:62.5%;
+	/* 默认字体的大小为16px，html继承后为10px。 */
+}
+*{
+	padding: 0;
+	margin:0;
+}
+img{
+	max-width:100%;
+	/* 实现图片的自动缩放 */
+}
+#container{
+	width:100%;
+	overflow:hidden;
+	max-width:800px;
+	margin:0 auto;
+	/* 最大宽度 */
+ /* padding-bottom: 6rem;!*强行布满页面...orz*!*/
+	background:rgb(104,205,213);
+}
+#top{
+    max-width:55px;
+    margin-left:5%;
+    margin-top:5%;
+    border: 2px dotted blue;
+}
+#head{
+	max-width:190px;
+	margin:0 auto;
+	border:2px dashed red;
+	padding-top: 10%;
+	text-align:center;
+
+}
+/* #content{不必再增加一个div，p本身就是一个块级元素
+	
+} */
+#content{
+	width:80%;
+	margin:0 auto;
+	padding-top:10%;
+	font-size:3em;
+	line-height:2em;
+	color:#fff;
+	text-indent:2em;
+	border:2px solid purple;
+
+}
+#footer{
+	width:100%;
+	overflow:hidden;s
+	max-width:800px;
+	margin:5% auto;
+	background:rgb(100,200,200);
+	border: 2px double purple;
+}
+
+.footer-both{width:50%;
+	float:left;
+	text-align:center;
+	font-size:2.5em;
+	color:#fff;
+
+}
+
+
+
+
