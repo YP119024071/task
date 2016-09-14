@@ -1,0 +1,84 @@
+*{
+	padding:0;
+	margin:0;
+}
+html{height:100%
+	font-size:62.5%;
+}
+body{height:100%;
+    font-family:Microsoft YaHei,serif;
+    min-width:100px;
+}
+img{
+	max-width:100%;
+}
+ul,ol{
+	list-style-type:none;
+}
+#wrap{height:100%;
+	width:100%;
+	background: rgb(239,240,245);
+}
+#header{position:relative;
+	width:100%;
+	height:4em;
+	text-align:center;
+	color:#fff;
+	background:rgb(95,192,205);
+}
+.span-l{
+	position:absolute;
+	font-size:1.5em;
+	top:0.6em;
+	left:0.8em;
+/* 	注意em单位的使用，利用absolute调整元素的位置 */
+
+}
+.span-r{
+	position:absolute;
+	font-size:1.5em;
+	right:0.8em;
+	top:0.6em;
+}
+	/* 右边浮动设置子line-height=父height达不到文字居中的目的，但是左边浮动就行}  */
+h1{
+	font-size:2em;
+	letter-spacing:0.5em;
+	line-height:2em;
+}
+form ul{}
+ul li{
+	margin-top:2em;
+	padding:2% 0;
+	background:#fff;
+}
+label{
+	display: inline-block;
+	width:6%;
+ /* label标签的宽度是怎么算出来的？ */
+	padding: 0.6%;
+	text-align:center;
+	vertical-align:middle;
+	/* 图片是怎么达到在label标签居中显示的 */
+}
+input{
+	width:80%;
+	font-size:2em;
+	text-indent:1em;
+	padding:0.5em 0;
+	vertical-align:middle;
+	border:none;
+	border-left:2px solid rgb(239,240,245);
+
+}
+form button{
+	width:100%;
+	font-size:2em;
+	padding:1em;
+	color:#fff;
+	border:none;
+	margin-top:3em;
+	background:rgb(95,192,205);
+	text-align:center;
+	letter-spacing: 1em;
+}
