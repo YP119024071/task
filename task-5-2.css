@@ -1,0 +1,168 @@
+*{
+	padding: 0;
+	margin:0;
+}
+ul{
+	list-style-type:none;
+}
+html{
+	font-size:62.5%;
+	/* font-family:Microsoft YaHei,serif;
+	max-width:1080px;
+	min-width: 320px; */
+}
+body {
+    position: relative;
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+
+img{
+	max-width: 100%
+}
+#header{
+	background:rgb(95,192,205);
+	width:100%;
+	position:relative;
+
+}
+ #help{
+ 	position:relative;
+	width:100%;
+	text-align:center;
+}
+
+#header button{
+	font-size:2em;
+	padding:2%;
+	margin:1% 0;
+	border-radius: 5px;
+	border:1px solid #5fc0ce;
+	
+
+
+}
+
+#employer{
+	color:white;
+    background:##51a8b4;
+	
+} 
+
+#nurse{
+	color:#5ac0ce;
+	background:white;
+	
+}
+#header-location{
+	position:absolute;
+	top:10%;
+	right:6%;
+}
+#main{
+	width: 100%
+}
+
+}
+#nav{width:100%;
+	border-bottom:1px solid #afbac0;
+	overflow:hidden;
+}
+#nav li{
+	overflow:hidden;
+	float:left;
+	box-sizing:border-box;
+	/* 盒子的可视尺寸 */
+	width:33.33%;
+	padding:2.5% 0;
+    font-size:2em;
+    color:#999;
+    text-align:center;
+    border-right:1px solid #e1e5e7;
+}
+
+#nav li .triangle{
+	float:right;
+	border-top:0.8em solid #afbac0;
+	border-right:0.8em solid transparent;  
+    border-left:0.8em solid transparent;
+    margin-right:0.3em;
+    margin-top:0.1em;
+}
+#wrap{
+	width:100%;
+}
+#wrap li{
+	width:100%;
+	padding:0.5%;
+	color:#999;
+	border-bottom:1px solid #afbac0;
+}
+#wrap li .date{
+	width: 100%;
+	overflow:hidden;
+	padding:0.5%;
+	margin-top:0.8em;
+
+}
+.content img{
+	margin-left:1em;
+	margin-right:1em;
+}
+.date .period{
+	float:left;
+	margin-left:2%;
+	width:50%;
+
+}
+.date .price{
+	color:red;
+	float:left;
+	width:30%;
+
+}
+.date .forward{
+	float:right;
+	width:1em;
+	margin-right:4em;
+}
+#footer {
+	position:fixed;
+	width:100%;
+	background:#f8fafb;
+	bottom:0;
+	border-top:1px solid #e1e5e7;
+}
+#footer ul{
+	float:left;
+	width:100%;
+}
+#footer-l,#footer-r{
+	float:left;
+	width:10%;
+	text-align:center;
+	border:1px solid red;
+}
+#footer-l{
+	margin-left:8em;
+}
+#footer-c{
+	width:13%;
+	border:1px solid red;
+	margin:0 auto;
+
+	
+}
+#footer-r{
+	float:right;
+	margin-right:8em;
+}
+#footer span{
+	display:block;
+	padding:20% 0 0 0;
+	color:#999;
+}
+
+
